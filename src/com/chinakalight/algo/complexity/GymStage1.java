@@ -10,6 +10,7 @@ public class GymStage1 {
         printFirstItem(items);
         printAllItems(items);
         printAllPossibleOrderedPairs(items);
+        sayHiNTimes(30);
     }
 
     // O(1) time or ("constant time")
@@ -33,4 +34,12 @@ public class GymStage1 {
             }
         }
     }
+
+    // Linear Time - O(n)
+    public static void sayHiNTimes(int n){
+        for (int i = 0; i < n; i++) {
+            System.out.println("hi");
+        }
+    }
+
 }
