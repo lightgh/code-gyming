@@ -8,7 +8,7 @@ public class GymStage1 {
     public static void main(String[] args) {
         int[] items = {34, 23, 11, 22, 33};
         printFirstItem(items);
-
+        printAllItems(items);
     }
 
     // O(1) time or ("constant time")
@@ -16,4 +16,11 @@ public class GymStage1 {
         System.out.println(items[0]);
     }
 
+    // O(n)
+    public static void printAllItems(int[] items){
+        for (int item :
+                items) {
+            System.out.println(item);
+        }
+    }
 }
