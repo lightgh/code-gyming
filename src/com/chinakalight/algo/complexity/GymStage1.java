@@ -11,6 +11,8 @@ public class GymStage1 {
         printAllItems(items);
         printAllPossibleOrderedPairs(items);
         sayHiNTimes(30);
+        printAllItemsTwice(items);
+        printFirstItemThenFirstHalfThenSayHi100Times(items);
     }
 
     // O(1) time or ("constant time")
@@ -61,7 +63,30 @@ public class GymStage1 {
                 items) {
             System.out.println(item);
         }
+    }
 
+    /**
+     * O(n) - Constant Time +
+     * O(n/2) - linear Time +
+     * O(100) - linear Time
+     *
+     * Total = O(1 + n/2 + 100) ==> O(n)
+     * @param items
+     */
+    public static void printFirstItemThenFirstHalfThenSayHi100Times(int[] items){
+        System.out.println(items[0]);
+
+        int middleIndex = items.length/2;
+        int index = 0;
+
+        while(index < middleIndex){
+            System.out.println(items[index]);
+            index++;
+        }
+
+        for (int i = 0; i < 100; i++) {
+            System.out.println("hi");
+        }
     }
 
 }
