@@ -42,4 +42,26 @@ public class GymStage1 {
         }
     }
 
+    /**
+     * Summation of both Loops
+     * O(2n) -> 2 x O(n) ->reduced to O(n)
+     * and called O(n) instead of O(2n)
+     * @param items
+     */
+    public static void printAllItemsTwice(int[] items){
+
+        // First Linear Time loop O(n)
+        for (int item :
+                items) {
+            System.out.println(item);
+        }
+
+        // Second Linear Time loop O(n)
+        for (int item :
+                items) {
+            System.out.println(item);
+        }
+
+    }
+
 }
