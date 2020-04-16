@@ -1,5 +1,11 @@
 package com.chinakalight.algo.complexity;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
+
 /**
  * @author - Chinaka .I. Light <chinakalight@googlemail.com>
  * Date: 4/13/2020
@@ -75,6 +81,15 @@ public class GymStage1 {
      */
     public static void printFirstItemThenFirstHalfThenSayHi100Times(int[] items){
         System.out.println(items[0]);
+
+        String a = "aer";
+/*
+        Map<String, List<String> > sets = new HashMap();
+        sets.forEach();
+        ;
+        Stream.of(a.toCharArray()).sorted()
+
+        */
 
         int middleIndex = items.length/2;
         int index = 0;
