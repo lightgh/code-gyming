@@ -88,7 +88,6 @@ public class GymStage1 {
         sets.forEach();
         ;
         Stream.of(a.toCharArray()).sorted()
-
         */
 
         int middleIndex = items.length/2;
