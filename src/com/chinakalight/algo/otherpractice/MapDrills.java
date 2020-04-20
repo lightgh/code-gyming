@@ -86,6 +86,34 @@ public class MapDrills {
         listOfHobbies.add("Reading");
         map3.put("courses", listOfCourses);
         map3.put("hobbies", listOfHobbies);
+        map3.put(null, listOfCourses);
+
+        // Loop Through and Display the Records
+
+        map3.forEach((key, value) ->{
+            System.out.printf("\nTitle: %s\n\t", key);
+            value.forEach(eachVal -> System.out.printf("%s\n\t",eachVal));
+        });
+
+        map3.entrySet().stream().forEach(e -> {
+            System.out.printf("\n%s:\n\t", e.getKey());
+            System.out.printf("%s:\n\t", e.getValue());
+        });
+
+        map3.entrySet().stream().forEach(eachM -> {
+            System.out.printf("\n%s:\n\t", eachM.getKey());
+            eachM.getValue().stream().forEach(subM -> {
+                System.out.printf("%s:\n\t", subM);
+            });
+        });
+
+        map3.put(null, null);
+        map3.forEach((k, v) -> {
+            System.out.println(k);
+            System.out.println(v);
+        });
+
+        System.out.println(map3);
 
     }
 }
