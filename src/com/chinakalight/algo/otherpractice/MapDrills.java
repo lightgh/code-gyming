@@ -3,7 +3,7 @@ package com.chinakalight.algo.otherpractice;
 import java.util.*;
 
 /**
- * @author - Chinaka .I. Light <ichinaka@byteworks.com.ng>
+ * @author - Chinaka .I. Light <chinakalight@googlemail.com>
  * Date: 4/16/2020
  */
 public class MapDrills {

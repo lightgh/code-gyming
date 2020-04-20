@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * @author - Chinaka .I. Light <ichinaka@byteworks.com.ng>
+ * @author - Chinaka .I. Light <chinakalight@googlemail.com>
  * Date: 4/19/2020
  */
 public class MapDrills2 {
