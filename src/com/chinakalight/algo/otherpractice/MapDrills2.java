@@ -29,11 +29,11 @@ public class MapDrills2 {
 
         // Creating LinkedhashMap
         Map<String, String> mapContacts = new LinkedHashMap<>();
-        mapContacts.put("0803691788", "Light");
-        mapContacts.put("0818971788", "Tom");
-        mapContacts.put("0818971799", "Peter");
-        mapContacts.put("0818971798", "Mary");
-        mapContacts.put("0818122221", "John");
+        mapContacts.put("A0803691788", "Light");
+        mapContacts.put("B0818971788", "Tom");
+        mapContacts.put("A818971799", "Peter");
+        mapContacts.put("B0818971798", "Mary");
+        mapContacts.put("A818122221", "John");
 
         System.out.println(mapContacts);
 
