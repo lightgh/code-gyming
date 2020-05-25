@@ -6,6 +6,17 @@ package com.chinakalight.datastructure.nodes;
  */
 public class NodeTest {
     public static void main(String[] args) {
-        Node node = new Node();
+        Node node = new Node(3);
+        node.next = new Node(5);
+        node.next.next = new Node(7);
+
+        printNodeValues(node);
+    }
+
+    static void printNodeValues(Node node){
+        while(node != null ){
+            System.out.print(node.value + " ");
+            node = node.next;
+        }
     }
 }
