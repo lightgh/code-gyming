@@ -5,4 +5,5 @@ package com.chinakalight.refactoring;
  * Date: 8/12/2020
  */
 public class Square {
+    public float size;
 }
