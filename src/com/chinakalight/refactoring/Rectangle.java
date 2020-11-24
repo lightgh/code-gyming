@@ -5,4 +5,6 @@ package com.chinakalight.refactoring;
  * Date: 8/12/2020
  */
 public class Rectangle {
+    public float width;
+    public float height;
 }
